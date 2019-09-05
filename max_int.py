@@ -1,5 +1,7 @@
-#Design an algorithm that finds the maximum positive integer input by a user.  The user repeatedly inputs
-#numbers until a negative value is entered.
+#1. while input is equal to or larger than 0 check input
+#2. if input is larger than the current largest integer replace it with current input integer
+#3. ask for input again
+#4. check until input is negative and print the largest integer
 num_int = int(input("Input a number: "))
 max_int=0
 while num_int >= 0:
